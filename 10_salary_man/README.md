@@ -1,4 +1,4 @@
-##Requirements:
+## Requirements:
 * asgiref==3.5.2
 * backports.zoneinfo==0.2.1
 * Django==4.1
@@ -19,7 +19,7 @@ as
 open salaryman/main.py
 Change `SENDER_EMAIL` as appropriate
 
-##To run:
+## To run:
 ```bash
 cd salaryman
 python manage.py runserver
