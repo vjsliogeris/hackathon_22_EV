@@ -1,2 +1,8 @@
 */env/
 *.swp
+*.env
+*/__pycache__/
+*/*/__pycache__/
+*/*/*/__pycache__/
+*db.sqlite3
+*atlyginimo_lapeliai.docx

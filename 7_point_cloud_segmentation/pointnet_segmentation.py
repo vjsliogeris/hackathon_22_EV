@@ -561,9 +561,9 @@ def run_experiment(epochs):
   return segmentation_model, history
 
 
-#segmentation_model, history = run_experiment(epochs=EPOCHS)
-segmentation_model, history = run_experiment(epochs=1)
-segmentation_model.save('model')
+segmentation_model, history = run_experiment(epochs=EPOCHS)
+#segmentation_model, history = run_experiment(epochs=1)
+segmentation_model.save_weights('model')
 
 """
 ## Visualize the training landscape
@@ -581,8 +581,8 @@ def plot_result(item):
   plt.show()
 
 
-plot_result("loss")
-plot_result("accuracy")
+#plot_result("loss")
+#plot_result("accuracy")
 
 """
 ## Inference
@@ -616,3 +616,4 @@ If you are interested in learning more about this topic, you may find
 [this repository](https://github.com/soumik12345/point-cloud-segmentation)
 useful.
 """
+print(":)")
