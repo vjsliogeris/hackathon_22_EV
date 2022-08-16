@@ -5,6 +5,7 @@ Used by all methods.
 from itertools import combinations, product
 
 import numpy as np
+import torch
 
 def hamming_dist(
     s1: str,
@@ -19,6 +20,13 @@ def hamming_dist(
     if s1[i] != s2[i]:
       dist += 1
   return dist
+
+
+def log_softmax(x):
+  e = torch.exp(x)
+  softmax = e / torch.sum(e)
+  lsm = torch.log(softmax)
+  return lsm
 
 
 def construct_probs(
