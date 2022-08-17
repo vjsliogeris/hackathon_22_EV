@@ -12,4 +12,4 @@
 
 `main_statistical_probability` has a statistical based solution.
 download data: https://drive.google.com/file/d/17tRUaAAS3VeWs_8qG8bGfVZjp8X7EMlb/view?usp=sharing
-and add to folder containing main_statistical_probabbility
+and add to folder containing main_statistical_probabbility.py
