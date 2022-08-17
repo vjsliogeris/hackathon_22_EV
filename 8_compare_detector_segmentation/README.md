@@ -6,3 +6,8 @@ run segmentation:
 	
 used yolov7 source:
 https://github.com/WongKinYiu/yolov7
+
+
+
+dir opencv-segmentation contains another segmentation example
+`python3 main.py example.jpg`
