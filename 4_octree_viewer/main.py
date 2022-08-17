@@ -29,7 +29,7 @@ def main():
     t2 = Thread(target=open_browser)
 
     t1.start()
-    time.sleep(1)
+    time.sleep(10)
     t2.start()
     t1.join()
     t2.join()
